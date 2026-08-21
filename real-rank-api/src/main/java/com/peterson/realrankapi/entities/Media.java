@@ -24,19 +24,23 @@ public class Media implements Serializable {
     @GeneratedValue(strategy = GenerationType.UUID)
     private UUID id;
 
-    @NotBlank
+    @Column(nullable = false)
     private String title;
-    @NotBlank
+
+    @Column(nullable = false, length = 2000)
     private String description;
-    @NotBlank
+
+    @Column(nullable = false)
     private String posterUrl;
-    @NotBlank
+
+    @Column(nullable = false)
     private String author;
-    @NotNull
+
+    @Column(nullable = false)
     private LocalDate releaseDate;
 
     @Enumerated(EnumType.STRING)
-    @NotNull
+    @Column(nullable = false)
     private MediaType mediaType;
 
     @Setter
