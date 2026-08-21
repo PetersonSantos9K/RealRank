@@ -1,9 +1,7 @@
 package com.peterson.realrankapi.entities;
 
 import jakarta.persistence.*;
-import jakarta.validation.constraints.Max;
-import jakarta.validation.constraints.Min;
-import jakarta.validation.constraints.Size;
+
 import lombok.Getter;
 import lombok.Setter;
 
@@ -24,11 +22,9 @@ public class CategoryMedia implements Serializable {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @Size(max = 1000)
     @Setter
     private String opinion;
 
-    @Min(1) @Max(10)
     @Setter
     private Integer score;
 

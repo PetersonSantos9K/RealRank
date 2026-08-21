@@ -2,8 +2,6 @@ package com.peterson.realrankapi.entities;
 
 import com.peterson.realrankapi.entities.enums.MediaType;
 import jakarta.persistence.*;
-import jakarta.validation.constraints.NotBlank;
-import jakarta.validation.constraints.NotNull;
 import lombok.Getter;
 import lombok.Setter;
 
