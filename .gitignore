@@ -1,0 +1,75 @@
+# =========================
+# FRONTEND - NEXT.JS
+# =========================
+
+realrank-frontend/node_modules/
+realrank-frontend/.pnp
+realrank-frontend/.pnp.*
+realrank-frontend/.yarn/*
+!realrank-frontend/.yarn/patches
+!realrank-frontend/.yarn/plugins
+!realrank-frontend/.yarn/releases
+!realrank-frontend/.yarn/versions
+
+realrank-frontend/coverage/
+
+realrank-frontend/.next/
+realrank-frontend/out/
+realrank-frontend/build/
+
+# Environment variables
+realrank-frontend/.env*
+!realrank-frontend/.env.example
+
+# Vercel
+realrank-frontend/.vercel/
+
+# TypeScript
+realrank-frontend/*.tsbuildinfo
+realrank-frontend/next-env.d.ts
+
+
+# =========================
+# BACKEND - SPRING / JAVA
+# =========================
+
+real-rank-api/target/
+
+# Maven
+real-rank-api/.mvn/wrapper/maven-wrapper.jar
+
+# STS / Eclipse
+real-rank-api/.apt_generated
+real-rank-api/.classpath
+real-rank-api/.factorypath
+real-rank-api/.project
+real-rank-api/.settings/
+real-rank-api/.springBeans
+real-rank-api/.sts4-cache
+
+# IntelliJ IDEA
+real-rank-api/.idea/
+real-rank-api/*.iws
+real-rank-api/*.iml
+real-rank-api/*.ipr
+
+# NetBeans
+real-rank-api/nbproject/private/
+real-rank-api/nbbuild/
+real-rank-api/dist/
+real-rank-api/nbdist/
+real-rank-api/.nb-gradle/
+
+# VS Code
+real-rank-api/.vscode/
+
+# Build
+real-rank-api/build/
+
+
+# =========================
+# GERAL
+# =========================
+
+.DS_Store
+*.log
